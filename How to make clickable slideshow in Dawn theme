@@ -1,0 +1,42 @@
+<h2><strong>The Code For Making a Clickable Slideshow in Dawn Theme on Shopify&nbsp;</strong></h2>
+<p><span style="font-weight: 400;">To manually make your hero slideshow clickable, go to the theme editor in your Shopify admin panel:</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><strong>Log in to your Shopify admin</strong><span style="font-weight: 400;">.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Navigate to </span><strong>Online Store &gt; Themes &gt; Edit code</strong><span style="font-weight: 400;">.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Make sure you are editing the </span><strong>Dawn theme</strong><span style="font-weight: 400;">.</span></li>
+</ol>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Open the </span><strong>base.css</strong><span style="font-weight: 400;"> file within the Assets folder.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Add the following code to the bottom of the base.css file</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Save</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Go back to </span><strong>Customizer </strong><span style="font-weight: 400;">and add links</span></li>
+</ol>
+<p><span style="font-weight: 400;">.slideshow__text-wrapper {</span></p>
+<p><span style="font-weight: 400;">padding: 0 !important;</span></p>
+<p><span style="font-weight: 400;">max-width: 100% !important; }</span></p>
+<p><span style="font-weight: 400;">.slideshow__text { height: 100% !important;</span></p>
+<p><span style="font-weight: 400;">width: 100% !important;</span></p>
+<p><span style="font-weight: 400;">opacity: 0;</span></p>
+<p><span style="font-weight: 400;">max-width: 100% !important; }</span></p>
+<p><span style="font-weight: 400;">.banner__buttons .button {</span></p>
+<p><span style="font-weight: 400;">position: absolute;</span></p>
+<p><span style="font-weight: 400;">top: 0;</span></p>
+<p><span style="font-weight: 400;">bottom: 0;</span></p>
+<p><span style="font-weight: 400;">right: 0;</span></p>
+<p><span style="font-weight: 400;">left: 0; }</span></p>
+<h2><strong>Using the CS Clickable Slideshow App for Hero Sliders</strong></h2>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Go to the </span><strong>Shopify App Store</strong><span style="font-weight: 400;">.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Install </span><strong>CS Clickable Slideshow</strong><span style="font-weight: 400;">.</span></li>
+</ol>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Open the </span><strong>CS Clickable Slideshow app</strong><span style="font-weight: 400;"> from your Shopify admin.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Click the </span><strong>Enable</strong><span style="font-weight: 400;"> button.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Go to </span><strong>Online Store &gt; Themes &gt; Customize</strong><span style="font-weight: 400;">.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Navigate to </span><strong>Templates &gt; Add Section &gt; Apps &gt; Clickable Slider</strong><span style="font-weight: 400;">.</span></li>
+</ol>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Upload your images and add the corresponding links for each one.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Save</span></li>
+</ol>
+<p><a href="https://www.youtube.com/watch?v=H--Xh-dOgBo"><span style="font-weight: 400;">Watch the complete video tutorial here.</span></a></p>
